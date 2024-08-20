@@ -1,0 +1,91 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+header nav {
+    margin: 0;
+    padding: 0;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #444;
+    border-radius: 5px;
+}
+header nav a:hover {
+    background-color: #000;
+}
+
+/* Área principal */
+main {
+    padding: 20px;
+}
+
+/* Tabelas */
+table.table-custom {
+    width: 100% !important; /* Reduza a largura da tabela conforme necessário*/
+    border-collapse: collapse;
+    margin: 20px auto !important; /* Centralize a tabela */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Para garantir que as bordas arredondadas funcionem corretamente */
+}
+table.table-custom th, table.table-custom td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+table.table-custom th {
+    background-color: #333;
+    color: white;
+}
+table.table-custom tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table.table-custom tr:hover {
+    background-color: #ddd;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Container para o conteúdo */
+.container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Links dentro do rodapé */
+.footer p {
+    margin: 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
